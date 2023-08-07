@@ -10,4 +10,5 @@ Alun Hughes (Twitter: @alundhughes30; Github: https://github.com/adh30)
 
 ## References
 [1] Emily Griffiths et al. (2019) Handbook on Statistical Disclosure Control for Outputs. The Safe Data Access Professionals Working Group.
+
 [2] Herbert A. Sturges. (1926). The choice of a class interval. Journal of the American Statistical Association. 21 (153): 65–66. doi:10.1080/01621459.1926.10502161
