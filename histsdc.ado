@@ -2,14 +2,19 @@
 * ADH 
 program define histsdc
         version 14
-		syntax varlist
+		syntax varlist [if]
+		preserve 
+		
+		// Implement [if]
+		marksample touse
+		qui keep if `touse' == 1
 		
 		tempvar safecount xvar
 		
 		twoway__histogram_gen `varlist', freq gen(`safecount' `xvar')
 		replace `safecount' = 10 if `safecount' <10 & `safecount'>0 //  option 1 as requested by Felicia
 
-/* Other options 
+/* Other options (not implemented)
 option 2: replace safecount = 5 if rawcount <10 & rawcount>0. 5 might be a better choice 
 than 19 since we are obscuring all data <10 and filling it with the midvalue 5 
 could be more representative of the shape while still sufficiently uninformative.
