@@ -1,6 +1,6 @@
 # SDCHistograms
 ## Histograms compatible with Statistical Disclosure Control (SDC) guidance
-These are simple Stata programs for producing histograms in conformance with SDC guidance (see pdf)
+These are simple Stata programs for producing histograms in conformance with SDC guidance (see Handbook on SDC.pdf)
 
 **binsafe** plots a histogram of the distribution of a variable constructed so that each bar represents the same fraction of the data (constant area histogram). No fraction contains fewer than 10 observations to accord with SDC guidance [1]. If all bin areas are >10 then the bin number is assigned using Sturges' rule [2].
 
