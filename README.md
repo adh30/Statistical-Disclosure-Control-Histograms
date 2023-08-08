@@ -10,7 +10,7 @@ To use these just copy the ado file and its associated sthlp file into your pers
 ## Authors
 Alun Hughes (Twitter: @alundhughes30; Github: https://github.com/adh30)
 ## Acknowledgments
-**binsafe** is a minor modification of **eqprhistogram** by Nick Cox (n.j.cox@durham.ac.uk)
+**binsafe** draws extensively on **eqprhistogram** by Nick Cox (n.j.cox@durham.ac.uk)
 
 ## References
 1. Emily Griffiths et al. (2019) Handbook on Statistical Disclosure Control for Outputs. The Safe Data Access Professionals Working Group.
