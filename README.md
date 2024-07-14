@@ -1,4 +1,4 @@
-# SDCHistograms
+# Statistical Disclosure Control Histograms
 ## Histograms compatible with Statistical Disclosure Control (SDC) guidance
 These are simple Stata programs for producing histograms in conformance with SDC guidance (see Handbook on SDC.pdf)
 
